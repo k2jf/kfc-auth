@@ -16,16 +16,16 @@ youli
 </template>
 
 <script>
-    import Authorization from '@/components/kfc-auth'
-    components: {
-        Authorization
-    },
-    export default {
-    data () {
-        return {
-        }
-    },
-    }
+import Authorization from '@/components/kfc-auth'
+export default {
+  components: {
+      Authorization
+  },
+  data () {
+      return {
+      }
+  },
+}
 </script>
 
 ```
